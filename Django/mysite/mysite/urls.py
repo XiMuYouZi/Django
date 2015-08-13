@@ -1,11 +1,13 @@
 from django.conf.urls import patterns, include, url
+from mysite.views import display_meta
+from books import views
 
 # Uncomment the next two lines to enable the admin:
-# from django.contrib import admin
-# admin.autodiscover()
+from django.contrib import admin
+admin.autodiscover()
 
 urlpatterns = patterns('',
-                       '',
+
     # Examples:
     # url(r'^$', 'mysite.views.home', name='home'),
     # url(r'^mysite/', include('mysite.foo.urls')),
@@ -14,5 +16,7 @@ urlpatterns = patterns('',
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
-    # url(r'^admin/', include(admin.site.urls)),
+     (r'^admin/', include(admin.site.urls)),
+     (r'^display/$',display_meta),
+     (r'^search/$',views.search_form),
 )
