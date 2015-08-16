@@ -45,5 +45,11 @@ def contact(request):
             )
             return HttpResponseRedirect('/templates/thanks/')
     else:
-        form = ContactForm()
+        form = ContactForm(
+            initial={'subject': 'I love your site!'})
     return render_to_response('contact_form.html', {'form': form},context_instance=RequestContext(request))
+
+
+# def foobar_view(request, template_name):
+#     m_list = Book.objects.filter(is_new=True)
+#     return render_to_response(template_name, {'m_list': m_list})
