@@ -4,6 +4,7 @@ from django.http import HttpResponseRedirect
 from django.template import RequestContext
 from books.models import Book
 from contact.forms import  ContactForm
+from django.http import HttpResponse
 
 
 def search_form(request):
@@ -49,6 +50,10 @@ def contact(request):
             initial={'subject': 'I love your site!'})
     return render_to_response('contact_form.html', {'form': form},context_instance=RequestContext(request))
 
+
+def my_image(request):
+    image_data = open("/path/to/my/image.png", "rb").read()
+    return HttpResponse(image_data, mimetype="image/png")
 
 # def foobar_view(request, template_name):
 #     m_list = Book.objects.filter(is_new=True)
