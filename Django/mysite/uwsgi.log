@@ -528,3 +528,493 @@ spawned uWSGI worker 2 (pid: 5992, cores: 1)
 [pid: 5991|app: 0|req: 16/18] 10.211.55.2 () {48 vars in 920 bytes} [Sat Aug 22 09:10:58 2015] GET /admin/ => generated 1896 bytes in 24 msecs (HTTP/1.1 200) 8 headers in 467 bytes (1 switches on core 0)
 [pid: 5992|app: 0|req: 3/19] 10.211.55.2 () {48 vars in 920 bytes} [Sat Aug 22 09:10:58 2015] GET /admin/ => generated 1896 bytes in 20 msecs (HTTP/1.1 200) 8 headers in 467 bytes (1 switches on core 0)
 [pid: 5991|app: 0|req: 17/20] 10.211.55.2 () {48 vars in 920 bytes} [Sat Aug 22 09:11:49 2015] GET /admin/ => generated 1896 bytes in 20 msecs (HTTP/1.1 200) 8 headers in 467 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 18/21] 10.211.55.2 () {42 vars in 784 bytes} [Sat Aug 22 09:25:55 2015] GET /admin => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 140 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 19/22] 10.211.55.2 () {44 vars in 841 bytes} [Sat Aug 22 09:25:55 2015] GET /admin/ => generated 1896 bytes in 25 msecs (HTTP/1.1 200) 8 headers in 467 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 20/23] 10.211.55.2 () {42 vars in 790 bytes} [Sat Aug 22 09:25:59 2015] GET /my_image => generated 2360 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5992|app: 0|req: 4/24] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:26:06 2015] GET /my_image => generated 2360 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 21/25] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:26:08 2015] GET /my_image => generated 2360 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 22/26] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:26:09 2015] GET /my_image => generated 2360 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 23/27] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:26:09 2015] GET /my_image => generated 2360 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 24/28] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:26:09 2015] GET /my_image => generated 2360 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 25/29] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:26:21 2015] GET /my_image => generated 2360 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 26/30] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:26:21 2015] GET /my_image => generated 2360 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 27/31] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:26:22 2015] GET /my_image => generated 2360 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 28/32] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:26:22 2015] GET /my_image => generated 2360 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 29/33] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:26:22 2015] GET /my_image => generated 2360 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 30/34] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:26:22 2015] GET /my_image => generated 2360 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 31/35] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:26:41 2015] GET /my_image => generated 2360 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 32/36] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:26:42 2015] GET /my_image => generated 2360 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5992|app: 0|req: 5/37] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:27:07 2015] GET /my_image => generated 2360 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 33/38] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:27:08 2015] GET /my_image => generated 2360 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5992|app: 0|req: 6/39] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:27:08 2015] GET /my_image => generated 2360 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 34/40] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:27:08 2015] GET /my_image => generated 2360 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 35/41] 10.211.55.2 () {44 vars in 841 bytes} [Sat Aug 22 09:27:13 2015] GET /admin/ => generated 1896 bytes in 16 msecs (HTTP/1.1 200) 8 headers in 467 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 36/42] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:28:05 2015] GET /my_image => generated 2360 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5992|app: 0|req: 7/43] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:28:06 2015] GET /my_image => generated 2360 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 37/44] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:28:06 2015] GET /my_image => generated 2360 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 38/45] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:28:06 2015] GET /my_image => generated 2360 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 39/46] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:28:06 2015] GET /my_image => generated 2360 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5992|app: 0|req: 8/47] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:28:07 2015] GET /my_image => generated 2360 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5992|app: 0|req: 9/48] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:28:07 2015] GET /my_image => generated 2360 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 40/49] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:30:12 2015] GET /my_image => generated 2360 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5991|app: 0|req: 41/50] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:30:15 2015] GET /my_image => generated 2360 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Sat Aug 22 09:31:13 2015 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Aug 22 09:31:13 2015 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug 22 09:31:48 2015] ***
+compiled with version: 4.8.4 on 20 August 2015 10:29:41
+os: Linux-3.13.0-34-generic #60-Ubuntu SMP Wed Aug 13 15:45:27 UTC 2014
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /media/psf/Django/Django/mysite
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /media/psf/Django/Django/mysite
+your processes number limit is 7755
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x220e980
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x220e980 pid: 27771 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 27771)
+spawned uWSGI worker 1 (pid: 27772, cores: 1)
+spawned uWSGI worker 2 (pid: 27773, cores: 1)
+[pid: 27772|app: 0|req: 1/1] 10.211.55.2 () {44 vars in 821 bytes} [Sat Aug 22 09:31:51 2015] GET /my_image => generated 0 bytes in 104 msecs (HTTP/1.1 301) 3 headers in 143 bytes (1 switches on core 0)
+[pid: 27772|app: 0|req: 2/2] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:31:51 2015] GET /my_image/ => generated 251598 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 27772|app: 0|req: 3/3] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:35:23 2015] GET /my_image/ => generated 251598 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+Sat Aug 22 09:35:36 2015 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Aug 22 09:35:36 2015 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug 22 09:35:40 2015] ***
+compiled with version: 4.8.4 on 20 August 2015 10:29:41
+os: Linux-3.13.0-34-generic #60-Ubuntu SMP Wed Aug 13 15:45:27 UTC 2014
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /media/psf/Django/Django/mysite
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /media/psf/Django/Django/mysite
+your processes number limit is 7755
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xec3980
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xec3980 pid: 28472 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28472)
+spawned uWSGI worker 1 (pid: 28473, cores: 1)
+spawned uWSGI worker 2 (pid: 28474, cores: 1)
+[pid: 28473|app: 0|req: 1/1] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:35:41 2015] GET /my_image/ => generated 799714 bytes in 311 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 28473|app: 0|req: 2/2] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:39:20 2015] GET /my_image/ => generated 799716 bytes in 183 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 28473|app: 0|req: 3/3] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:39:23 2015] GET /my_image/ => generated 799716 bytes in 187 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 28473|app: 0|req: 4/4] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:39:48 2015] GET /my_image/ => generated 799708 bytes in 178 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 28473|app: 0|req: 5/5] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:39:50 2015] GET /my_image/ => generated 799708 bytes in 183 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+Sat Aug 22 09:48:59 2015 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Aug 22 09:48:59 2015 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug 22 09:49:08 2015] ***
+compiled with version: 4.8.4 on 20 August 2015 10:29:41
+os: Linux-3.13.0-34-generic #60-Ubuntu SMP Wed Aug 13 15:45:27 UTC 2014
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /media/psf/Django/Django/mysite
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /media/psf/Django/Django/mysite
+your processes number limit is 7755
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x10aca10
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x10aca10 pid: 31006 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31006)
+spawned uWSGI worker 1 (pid: 31007, cores: 1)
+spawned uWSGI worker 2 (pid: 31008, cores: 1)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 31007)...
+Gracefully killing worker 2 (pid: 31008)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /media/psf/Django/Django/mysite
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:8077)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug 22 09:50:02 2015] ***
+compiled with version: 4.8.4 on 20 August 2015 10:29:41
+os: Linux-3.13.0-34-generic #60-Ubuntu SMP Wed Aug 13 15:45:27 UTC 2014
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /media/psf/Django/Django/mysite
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /media/psf/Django/Django/mysite
+your processes number limit is 7755
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8077 fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2694970
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2694970 pid: 31006 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 31006)
+spawned uWSGI worker 1 (pid: 31182, cores: 1)
+spawned uWSGI worker 2 (pid: 31183, cores: 1)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 31182)...
+Gracefully killing worker 2 (pid: 31183)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /media/psf/Django/Django/mysite
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:8077)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug 22 09:50:25 2015] ***
+compiled with version: 4.8.4 on 20 August 2015 10:29:41
+os: Linux-3.13.0-34-generic #60-Ubuntu SMP Wed Aug 13 15:45:27 UTC 2014
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /media/psf/Django/Django/mysite
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /media/psf/Django/Django/mysite
+your processes number limit is 7755
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8077 fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x16a8970
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x16a8970 pid: 31006 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 31006)
+spawned uWSGI worker 1 (pid: 31253, cores: 1)
+spawned uWSGI worker 2 (pid: 31254, cores: 1)
+[pid: 31253|app: 0|req: 1/1] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:50:47 2015] GET /my_image/ => generated 799690 bytes in 311 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 31253|app: 0|req: 2/2] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:50:56 2015] GET /my_image/ => generated 799692 bytes in 194 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 31253|app: 0|req: 3/3] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:50:58 2015] GET /my_image/ => generated 799692 bytes in 174 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 31253|app: 0|req: 4/4] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:50:58 2015] GET /my_image/ => generated 799692 bytes in 185 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 31254|app: 0|req: 1/5] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:50:58 2015] GET /my_image/ => generated 251598 bytes in 115 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 31254|app: 0|req: 2/6] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:51:22 2015] GET /my_image/ => generated 251598 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 31253|app: 0|req: 5/7] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:51:23 2015] GET /my_image/ => generated 799680 bytes in 178 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 31253|app: 0|req: 6/8] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:51:25 2015] GET /my_image/ => generated 799680 bytes in 180 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 31253|app: 0|req: 7/9] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:51:26 2015] GET /my_image/ => generated 799680 bytes in 196 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 31254|app: 0|req: 3/10] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:51:30 2015] GET /my_image/ => generated 251598 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 31253|app: 0|req: 8/11] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:51:30 2015] GET /my_image/ => generated 799680 bytes in 196 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 31254|app: 0|req: 4/12] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:51:31 2015] GET /my_image/ => generated 251598 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 31253|app: 0|req: 9/13] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:51:31 2015] GET /my_image/ => generated 799680 bytes in 195 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 31253|app: 0|req: 10/14] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:51:32 2015] GET /my_image/ => generated 799680 bytes in 186 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 31253|app: 0|req: 11/15] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:51:33 2015] GET /my_image/ => generated 799680 bytes in 180 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 31253|app: 0|req: 12/16] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:51:34 2015] GET /my_image/ => generated 799680 bytes in 181 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 31253|app: 0|req: 13/17] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:51:35 2015] GET /my_image/ => generated 799680 bytes in 181 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 31254|app: 0|req: 5/18] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:51:36 2015] GET /my_image/ => generated 251598 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 31253|app: 0|req: 14/19] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:51:35 2015] GET /my_image/ => generated 799680 bytes in 191 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 31253|app: 0|req: 15/20] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:51:36 2015] GET /my_image/ => generated 799680 bytes in 192 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 31254)...
+Gracefully killing worker 1 (pid: 31253)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /media/psf/Django/Django/mysite
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:8077)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug 22 09:51:43 2015] ***
+compiled with version: 4.8.4 on 20 August 2015 10:29:41
+os: Linux-3.13.0-34-generic #60-Ubuntu SMP Wed Aug 13 15:45:27 UTC 2014
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /media/psf/Django/Django/mysite
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /media/psf/Django/Django/mysite
+your processes number limit is 7755
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8077 fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x18b2970
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x18b2970 pid: 31006 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 31006)
+spawned uWSGI worker 1 (pid: 31494, cores: 1)
+spawned uWSGI worker 2 (pid: 31495, cores: 1)
+[pid: 31494|app: 0|req: 1/1] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:51:44 2015] GET /my_image/ => generated 799660 bytes in 316 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 31494)...
+Gracefully killing worker 2 (pid: 31495)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /media/psf/Django/Django/mysite
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:8077)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug 22 09:58:28 2015] ***
+compiled with version: 4.8.4 on 20 August 2015 10:29:41
+os: Linux-3.13.0-34-generic #60-Ubuntu SMP Wed Aug 13 15:45:27 UTC 2014
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /media/psf/Django/Django/mysite
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /media/psf/Django/Django/mysite
+your processes number limit is 7755
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8077 fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x139e970
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x139e970 pid: 31006 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 31006)
+spawned uWSGI worker 1 (pid: 32714, cores: 1)
+spawned uWSGI worker 2 (pid: 32715, cores: 1)
+[pid: 32714|app: 0|req: 1/1] 10.211.55.2 () {44 vars in 823 bytes} [Sat Aug 22 09:58:30 2015] GET /my_image/ => generated 251598 bytes in 117 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 32714)...
+Gracefully killing worker 2 (pid: 32715)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /media/psf/Django/Django/mysite
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:8077)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug 22 10:03:34 2015] ***
+compiled with version: 4.8.4 on 20 August 2015 10:29:41
+os: Linux-3.13.0-34-generic #60-Ubuntu SMP Wed Aug 13 15:45:27 UTC 2014
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /media/psf/Django/Django/mysite
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /media/psf/Django/Django/mysite
+your processes number limit is 7755
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8077 fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x158e970
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x158e970 pid: 31006 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 31006)
+spawned uWSGI worker 1 (pid: 1247, cores: 1)
+spawned uWSGI worker 2 (pid: 1248, cores: 1)
+[pid: 1247|app: 0|req: 1/1] 10.211.55.2 () {42 vars in 780 bytes} [Sat Aug 22 10:03:40 2015] GET /csv => generated 0 bytes in 125 msecs (HTTP/1.1 301) 3 headers in 138 bytes (1 switches on core 0)
+[pid: 1248|app: 0|req: 1/2] 10.211.55.2 () {42 vars in 782 bytes} [Sat Aug 22 10:03:40 2015] GET /csv/ => generated 142 bytes in 113 msecs (HTTP/1.1 200) 3 headers in 126 bytes (13 switches on core 0)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1247)...
+Gracefully killing worker 2 (pid: 1248)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /media/psf/Django/Django/mysite
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:8077)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug 22 10:20:09 2015] ***
+compiled with version: 4.8.4 on 20 August 2015 10:29:41
+os: Linux-3.13.0-34-generic #60-Ubuntu SMP Wed Aug 13 15:45:27 UTC 2014
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /media/psf/Django/Django/mysite
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /media/psf/Django/Django/mysite
+your processes number limit is 7755
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8077 fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1121970
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1121970 pid: 31006 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 31006)
+spawned uWSGI worker 1 (pid: 4482, cores: 1)
+spawned uWSGI worker 2 (pid: 4483, cores: 1)
+[pid: 4482|app: 0|req: 1/1] 10.211.55.2 () {42 vars in 780 bytes} [Sat Aug 22 10:20:16 2015] GET /pdf => generated 0 bytes in 186 msecs (HTTP/1.1 301) 3 headers in 138 bytes (1 switches on core 0)
+[pid: 4482|app: 0|req: 2/2] 10.211.55.2 () {42 vars in 782 bytes} [Sat Aug 22 10:20:16 2015] GET /pdf/ => generated 1524 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 132 bytes (2 switches on core 0)
+[pid: 4482|app: 0|req: 3/3] 10.211.55.2 () {46 vars in 860 bytes} [Sat Aug 22 10:20:43 2015] GET / => generated 2659 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 4483)...
+Gracefully killing worker 1 (pid: 4482)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /media/psf/Django/Django/mysite
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:8077)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug 22 10:21:07 2015] ***
+compiled with version: 4.8.4 on 20 August 2015 10:29:41
+os: Linux-3.13.0-34-generic #60-Ubuntu SMP Wed Aug 13 15:45:27 UTC 2014
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /media/psf/Django/Django/mysite
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /media/psf/Django/Django/mysite
+your processes number limit is 7755
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8077 fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2648970
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2648970 pid: 31006 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 31006)
+spawned uWSGI worker 1 (pid: 4660, cores: 1)
+spawned uWSGI worker 2 (pid: 4661, cores: 1)
+[pid: 4661|app: 0|req: 1/1] 10.211.55.2 () {42 vars in 782 bytes} [Sat Aug 22 10:21:14 2015] GET /pdf/ => generated 50229 bytes in 178 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 4660)...
+Gracefully killing worker 2 (pid: 4661)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /media/psf/Django/Django/mysite
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:8077)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug 22 10:21:35 2015] ***
+compiled with version: 4.8.4 on 20 August 2015 10:29:41
+os: Linux-3.13.0-34-generic #60-Ubuntu SMP Wed Aug 13 15:45:27 UTC 2014
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /media/psf/Django/Django/mysite
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /media/psf/Django/Django/mysite
+your processes number limit is 7755
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8077 fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9bd970
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x9bd970 pid: 31006 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 31006)
+spawned uWSGI worker 1 (pid: 4748, cores: 1)
+spawned uWSGI worker 2 (pid: 4749, cores: 1)
+[pid: 4748|app: 0|req: 1/1] 10.211.55.2 () {44 vars in 813 bytes} [Sat Aug 22 10:21:36 2015] GET /pdf/ => generated 1533 bytes in 151 msecs (HTTP/1.1 200) 3 headers in 132 bytes (2 switches on core 0)
+[pid: 4748|app: 0|req: 2/2] 10.211.55.2 () {44 vars in 813 bytes} [Sat Aug 22 10:24:14 2015] GET /pdf/ => generated 1533 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 132 bytes (2 switches on core 0)
+[pid: 4748|app: 0|req: 3/3] 10.211.55.2 () {44 vars in 841 bytes} [Sat Aug 22 10:53:50 2015] GET /admin/ => generated 1896 bytes in 51 msecs (HTTP/1.1 200) 8 headers in 467 bytes (1 switches on core 0)
+[pid: 4749|app: 0|req: 1/4] 10.211.55.2 () {52 vars in 1002 bytes} [Sat Aug 22 10:53:54 2015] POST /admin/ => generated 0 bytes in 217 msecs (HTTP/1.1 302) 8 headers in 385 bytes (1 switches on core 0)
+[pid: 4748|app: 0|req: 4/5] 10.211.55.2 () {46 vars in 858 bytes} [Sat Aug 22 10:53:54 2015] GET /admin/ => generated 6982 bytes in 35 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 4748|app: 0|req: 5/6] 10.211.55.2 () {44 vars in 849 bytes} [Sat Aug 22 10:53:56 2015] GET /admin/sites/site/ => generated 4786 bytes in 38 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 4748|app: 0|req: 6/7] 10.211.55.2 () {42 vars in 746 bytes} [Sat Aug 22 10:53:56 2015] GET /admin/jsi18n/ => generated 5309 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 4748|app: 0|req: 7/8] 10.211.55.2 () {44 vars in 868 bytes} [Sat Aug 22 10:54:01 2015] GET /admin/sites/site/add/ => generated 3715 bytes in 29 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 4749|app: 0|req: 2/9] 10.211.55.2 () {42 vars in 750 bytes} [Sat Aug 22 10:54:01 2015] GET /admin/jsi18n/ => generated 5309 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 4748|app: 0|req: 8/10] 10.211.55.2 () {44 vars in 842 bytes} [Sat Aug 22 10:54:04 2015] GET /admin/ => generated 6982 bytes in 20 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)

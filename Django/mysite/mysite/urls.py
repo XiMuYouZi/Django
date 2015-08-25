@@ -12,7 +12,9 @@ urlpatterns = patterns('',
      (r'^search/$', views.search),
      (r'^thanks/$',views.thanks),
      (r'^contact-form',views.contact),
-     # (r'^foo/$', views.foobar_view, {'template_name': 'template1.html'}),
-     # (r'^bar/$', views.foobar_view, {'template_name': 'template2.html'}),
+     (r'^my_image/$',views.my_image),
+     (r'^csv/$',views.unruly_passengers_csv),
+     (r'^pdf/$',views.hello_pdf),
+
 
 )
